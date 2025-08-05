@@ -18,9 +18,7 @@ TaskTrack OS is a Python-based Command Line Interface (CLI) task management syst
 ## 🗂️ Project Structure
 
 TaskTrack-OS/
-
 |
-
 
 ├── main.py # Entry point, CLI routing
 
