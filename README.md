@@ -15,24 +15,18 @@ TaskTrack OS is a Python-based Command Line Interface (CLI) task management syst
 
 ---
 
-## 🗂️ Project Structure
+### 📁 Project Structure
 
+```plaintext
 TaskTrack-OS/
-|
+├── main.py        # Entry point, CLI routing
+├── auth.py        # User login/signup and filesystem loader
+├── task.py        # Add, view (and later edit/delete) tasks
+├── token.py       # (Optional) Handles token/session logic (in progress)
+├── users.json     # Stores user data by role
+├── task.json      # Stores user-task mapping
+├── token.json     # Stores token/session info (optional feature)
 
-├── main.py # Entry point, CLI routing
-
-├── auth.py # User login/signup and filesystem loader
-
-├── task.py # Add, view (and later edit/delete) tasks
-
-├── token.py # (Optional) Handles token/session logic (in progress)
-
-├── users.json # Stores user data by role
-
-├── task.json # Stores user-task mapping
-
-├── token.json # Stores token/session info (optional feature)
 
 
 
@@ -51,4 +45,22 @@ TaskTrack-OS/
 | `token.json`   | 🧾 (Optional) Placeholder for session or token-related info. Planned for features like session timeout or secure auth. |
 
 ---
+
+### 📁 Sample `users.json` Format
+
+```json
+{
+    "admin": {
+        "siva": "Siva@12345"
+    },
+    "user": {
+        "siva": "Samba123",
+        "lalu": "lalu@123",
+        "samba": "Samba123",
+        "Uday": "Uday123",
+        "Mahindra12": "Mahindra123",
+        "Venkat": "Venkat@12345"
+    }
+}
+
 
