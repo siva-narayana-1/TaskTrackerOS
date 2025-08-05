@@ -33,3 +33,28 @@ TaskTrack-OS/
 ├── task.json # Stores user-task mapping
 
 ├── token.json # Stores token/session info (optional feature)
+
+
+
+---
+
+## 📄 File Descriptions
+
+| File/Module     | Description |
+|----------------|-------------|
+| `main.py`      | 🧠 The central CLI app that handles login, signup, and user/admin dashboard routing. This is the entry point of the project. |
+| `auth.py`      | 🔐 Handles user authentication — login, signup, and user-role management. Uses `users.json` for storing registered users. |
+| `task.py`      | ✅ Manages task operations like `add` and `view`. Each user’s tasks are stored in `task.json` with associated priorities. |
+| `token.py`     | 🔄 (Optional/in-progress) Module to manage token-based session authentication or future features like login sessions or password resets. |
+| `users.json`   | 📂 JSON file that stores user credentials grouped by roles (`admin`, `user`). Created dynamically via `auth.py`. |
+| `task.json`    | 📋 Stores per-user tasks in key-value format: `{ username: { task: priority } }`. Created dynamically by `task.py`. |
+| `token.json`   | 🧾 (Optional) Placeholder for session or token-related info. Planned for features like session timeout or secure auth. |
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/TaskTrack-OS.git
+   cd TaskTrack-OS
