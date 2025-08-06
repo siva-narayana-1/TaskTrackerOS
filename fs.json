@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "admin": {
         "siva": "Siva@12345"
@@ -10,4 +11,18 @@
         "Mahindra12": "Mahindra123",
         "Venkat": "Venkat@12345"
     }
+=======
+{
+    "admin": {
+        "siva": "Siva@12345"
+    },
+    "user": {
+        "siva": "Samba123",
+        "lalu": "lalu@123",
+        "samba": "Samba123",
+        "Uday": "Uday123",
+        "Mahindra12": "Mahindra123",
+        "Venkat": "Venkat@12345"
+    }
+>>>>>>> f1f0fbfe736b9e85060971a7d57bce82b3ccfd20
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "lalu": {
         "Exam": "high",
@@ -6,4 +7,14 @@
         "eart": "low",
         "er": "low"
     }
+=======
+{
+    "lalu": {
+        "Exam": "high",
+        "Eating": "high",
+        "start exam": "low",
+        "eart": "low",
+        "er": "low"
+    }
+>>>>>>> f1f0fbfe736b9e85060971a7d57bce82b3ccfd20
 }
